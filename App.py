@@ -131,7 +131,7 @@ def video_frame_callback(frame: av.VideoFrame) -> av.VideoFrame:
     result_queue.put(angles)
     return av.VideoFrame.from_ndarray(op_frame, format="bgr24")
 
-st.title("NamestAI: A yoga fitness app by Balachander")
+st.title("NamastAI: A yoga fitness app by Balachander")
 
 # Set client settings for WebRTC
 client_settings = ClientSettings(
